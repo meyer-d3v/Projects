@@ -1,8 +1,7 @@
-HI!
+Hi!
 
-This folder is just to show beginner level projects 
-i have started with to help me learn multiple
+This folder is to show beginner-level projects 
+I have started with to help me learn multiple
 programming languages.
 
 Thank you for being here. 
-Hope to see you soon!
