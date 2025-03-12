@@ -10,7 +10,7 @@ def download_video(url):
         yt = YouTube(url, on_progress_callback=on_progress)
         stream = yt.streams.get_highest_resolution()
         print(f"Downloading: {yt.title}")
-        stream.download(r"C:\Users\Samantha\Downloads\New folder")
+        stream.download(r"C:\Users\admin\Downloads\New folder")
         yt.register_on_progress_callback(progress_function)
         print("Download Complete")
         notify.send(f"Downloaded succesfully: {stream.title}")
@@ -21,7 +21,7 @@ def download_video(url):
 def progress_function(chunk, file_handle, bytes_remaining):
     print(round((1-bytes_remaining/chunk.filesize)*100, 3), " % done ...")
 
-f = open("C:\\Users\\Samantha\\Desktop\\Python (learning)\\textfile\\links.txt","r")
+f = open("C:\\Users\\admin\\Desktop\\Python (learning)\\textfile\\links.txt","r")
 
 for x in f:
     if __name__ == "__main__":
