@@ -4,8 +4,7 @@ import java.util.*;
 /**
  * 
  * 
- * @author Dean Christopher Meyer
- * @studentnr 250742640
+ * @author meyer-dev
  */
 public class ShopperCalcuator {
 
