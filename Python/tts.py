@@ -21,7 +21,7 @@ engine.setProperty("rate", 180)
 
 engine.setProperty("volume", 1.0)
 
-engine.say("Goodmorning mister and misses Meyer. My name is puffles and how am I going to be helping you today?")
+engine.say("Goodmorning mister Meyer. My name is Alexis and how am I going to be helping you today?")
     
 engine.runAndWait()
 
